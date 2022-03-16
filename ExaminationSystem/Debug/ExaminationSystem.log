@@ -1,0 +1,11 @@
+﻿  Login.cpp
+C:\Users\afaqs\OneDrive\Documents\Project C++ Win\ExaminationSystem\Student.h(948,11): warning C4244: 'initializing': conversion from 'wchar_t' to 'char', possible loss of data
+C:\Users\afaqs\OneDrive\Documents\Project C++ Win\ExaminationSystem\Teacher.h(869,11): warning C4244: 'initializing': conversion from 'wchar_t' to 'char', possible loss of data
+C:\Users\afaqs\OneDrive\Documents\Project C++ Win\ExaminationSystem\Display.h(481,11): warning C4244: 'initializing': conversion from 'wchar_t' to 'char', possible loss of data
+  Student.cpp
+C:\Users\afaqs\OneDrive\Documents\Project C++ Win\ExaminationSystem\Student.h(948,11): warning C4244: 'initializing': conversion from 'wchar_t' to 'char', possible loss of data
+  Teacher.cpp
+C:\Users\afaqs\OneDrive\Documents\Project C++ Win\ExaminationSystem\Teacher.h(869,11): warning C4244: 'initializing': conversion from 'wchar_t' to 'char', possible loss of data
+  Generating Code...
+  Display.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  ExaminationSystem.vcxproj -> C:\Users\afaqs\OneDrive\Documents\Project C++ Win\ExaminationSystem\Debug\ExaminationSystem.exe

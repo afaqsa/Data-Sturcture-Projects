@@ -1,0 +1,97 @@
+  ExaminationSystem.Display.resources - Embedded, ContainedInManifestFile, 
+  ExaminationSystem.Login.resources - Embedded, ContainedInManifestFile, 
+  ExaminationSystem.MyForm.resources - Embedded, ContainedInManifestFile, 
+  ExaminationSystem.Student.resources - Embedded, ContainedInManifestFile, 
+  ExaminationSystem.Teacher.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly ExaminationSystem, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.DirectoryServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class ExaminationSystem.Node: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 roll_no : Public
+    System.String first_name : Public
+    System.String last_name : Public
+    System.String room_no : Public
+    System.String timing : Public
+    System.String depart : Public
+    System.String year : Public
+    Int32 height : Public
+    ExaminationSystem.Node left : Public
+    ExaminationSystem.Node right : Public
+Class ExaminationSystem.trees: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    ExaminationSystem.Node root : Public
+  Methods:
+    createNode(Int32, String, String, String, String, String, String): PrivateScope, Public, HideBySig
+    calheight(Node): PrivateScope, Public, HideBySig
+    bf(Node): PrivateScope, Public, HideBySig
+    LL_rotation(Node): PrivateScope, Public, HideBySig
+    RR_rotation(Node): PrivateScope, Public, HideBySig
+    RL_rotation(Node): PrivateScope, Public, HideBySig
+    LR_rotation(Node): PrivateScope, Public, HideBySig
+    FindNode(Node, Int32, String): PrivateScope, Public, HideBySig
+    insert(Node, Int32, String, String, String, String, String, String): PrivateScope, Public, HideBySig
+    upDate(Node): PrivateScope, Public, HideBySig
+    deleteNode(Node, Node): PrivateScope, Public, HideBySig
+    inpre(Node): PrivateScope, Public, HideBySig
+    insuc(Node): PrivateScope, Public, HideBySig
+    isPresent(Node, Int32, String): PrivateScope, Public, HideBySig
+Class ExaminationSystem.Queue: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    push(Node): PrivateScope, Public, HideBySig
+    pop(): PrivateScope, Public, HideBySig
+    empty(): PrivateScope, Public, HideBySig
+    Front(): PrivateScope, Public, HideBySig
+    Size(): PrivateScope, Public, HideBySig
+Class ExaminationSystem.Display: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Boolean isClosed : Public
+  Methods:
+    setSize(Size, Int32, Int32): PrivateScope, Public, HideBySig
+Class ExaminationSystem.Student: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Boolean closed : Public
+  Methods:
+    setSize(Size, Int32, Int32): PrivateScope, Public, HideBySig
+Class ExaminationSystem.Teacher: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Boolean closed : Public
+  Methods:
+    setSize(Size, Int32, Int32): PrivateScope, Public, HideBySig
+Class ExaminationSystem.MyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.ValueType showpage Boolean IsBoxed : Public
+    System.Drawing.Size formOreginalSize : Public
+  Methods:
+    setSize(Size, Int32, Int32): PrivateScope, Public, HideBySig
+    MyForm_Load(Object, EventArgs): PrivateScope, Public, HideBySig
+Class ExaminationSystem.Login: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Drawing.Size formOreginalSize : Public

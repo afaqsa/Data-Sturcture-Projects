@@ -1,0 +1,8 @@
+C:\Users\afaqs\OneDrive\Documents\Project C++ Win\ExaminationSystem\Debug\ExaminationSystem.MyForm.resources
+C:\Users\afaqs\OneDrive\Documents\Project C++ Win\ExaminationSystem\Debug\ExaminationSystem.vcxproj.GenerateResource.cache
+C:\Users\afaqs\OneDrive\Documents\Project C++ Win\ExaminationSystem\Debug\ExaminationSystem.exe
+C:\Users\afaqs\OneDrive\Documents\Project C++ Win\ExaminationSystem\Debug\ExaminationSystem.Login.resources
+C:\Users\afaqs\OneDrive\Documents\Project C++ Win\ExaminationSystem\Debug\ExaminationSystem.Student.resources
+C:\Users\afaqs\OneDrive\Documents\Project C++ Win\ExaminationSystem\Debug\ExaminationSystem.Teacher.resources
+C:\Users\afaqs\OneDrive\Documents\Project C++ Win\ExaminationSystem\Debug\ExaminationSystem.Display.resources
+C:\Users\afaqs\OneDrive\Documents\Project C++ Win\ExaminationSystem\Debug\ExaminationSystem.vcxproj.AssemblyReference.cache
